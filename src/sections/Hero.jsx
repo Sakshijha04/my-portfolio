@@ -5,6 +5,7 @@ import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants/index.js";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
+import About from "./About.jsx";
 
 const Hero = () => {
   useGSAP(() => {
@@ -51,9 +52,12 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Sakshi, a developer based in India with a passion for
-              code.
+              SAKSHI JHA|"Bringing design and code together to turn ideas into reality."
             </p>
+            <h4 className="text-2xl md:text-3xl lg:text-4xl font-bold uppercase tracking-widest mb-4 animated-gradient">
+              WEB DEVELOPER
+            </h4>
+
 
             <Button
               text="See My Work"
@@ -70,7 +74,7 @@ const Hero = () => {
           </div>
         </figure>
       </div>
-
+      <About/>
       <AnimatedCounter />
     </section>
   );

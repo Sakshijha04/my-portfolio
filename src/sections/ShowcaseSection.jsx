@@ -53,7 +53,8 @@ const AppShowcase = () => {
               <img src="/images/projectt1.png" alt="Stock Analysis App Interface" style={{width: '100%',height: '100%',objectFit:'contain'}} /></a>
             </div>
             <div className="text-content">
-              <a href="https://github.com/Sakshijha04/stock-analysis-and-forecasting"><h2>
+              <a href="https://github.com/Sakshijha04/stock-analysis-and-forecasting">
+              <h2>
               Time Series Stock Analysis and Forecasting Webapp
               </h2></a>
               

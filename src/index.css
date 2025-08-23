@@ -13,10 +13,18 @@ body {
   color: white;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
-}
 
+  
+  }
+  
+  
+  
+  
+  
+  
 section {
   width: 100dvw;
+  padding-top: 5rem;
 }
 
 @theme {
@@ -588,6 +596,39 @@ section {
   width: 25px;   /* your desired width */
   height: 25px;  /* your desired height */
 }
+
+
+/* Mobile burger button spacing and cursor */
+.navbar button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px; /* optional, to space burger lines */
+}
+
+/* Optional: add a smooth transition to menu */
+.mobile {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Ensure navbar does not block content on mobile */
+.animated-gradient {
+  background: linear-gradient(270deg, #62e0ff, #fd5c79, #6d45ce, #62e0ff);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 6s ease infinite;
+  font-weight: bold;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
 
 
 

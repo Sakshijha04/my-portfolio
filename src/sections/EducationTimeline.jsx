@@ -26,6 +26,9 @@ const EducationTimeline = () => {
 
   return (
     <section id="Edu" className="edu-timeline-section">
+      <div className="absolute top-0 left-0 z-10">
+        <img src="/images/bg.png" alt="" />
+      </div>
       <h2 className="edu-timeline-title">Education Timeline</h2>
       <div className="edu-timeline">
         {educationData.map((edu, index) => (
